@@ -5,7 +5,7 @@ import { Rnd } from 'react-rnd';
 
 const App = () => {
   //Backend Url
-  const backendUrl = process.env.REACT_APP_BACKEND_URL;
+  const backendUrl = "https://taskapi-2.onrender.com";
 
  //Resizable Variables
   const [widths, setWidths] = useState(['29%', '68%']);
